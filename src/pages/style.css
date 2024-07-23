@@ -1,0 +1,14 @@
+.iframe-container {
+    position: relative;
+    width: 100%;
+    height: calc(100% + 100px); /* Increase height by 100px */
+    overflow: hidden;
+  }
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: -100px; /* Shift iframe up by 100px */
+    width: 100%;
+    height: calc(100% + 100px); /* Adjust height to match container */
+    border: none;
+  }
